@@ -1,0 +1,24 @@
+$db: darkblue;
+$w: wheat;
+$g: rgb(128, 128, 128);
+$bl: rgb(0, 0, 0);
+body {
+  background-color: $db !important;
+}
+.row {
+  background-color: $w;
+  border-radius: 5px;
+}
+.card {
+  color: $db;
+  height: 350px;
+  box-shadow: 10px 10px 15px $bl;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card:hover {
+  border: 5px solid dodgerblue;
+  margin: 5px 0px !important;
+  box-shadow: 18px 18px 20px black;
+  border-radius: 20px;
+}

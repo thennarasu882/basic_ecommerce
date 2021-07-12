@@ -1,0 +1,26 @@
+body {
+  background-color: darkblue !important;
+}
+
+.row {
+  background-color: wheat;
+  border-radius: 5px;
+}
+
+.card {
+  color: darkblue;
+  height: 350px;
+  -webkit-box-shadow: 10px 10px 15px black;
+          box-shadow: 10px 10px 15px black;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card:hover {
+  border: 5px solid dodgerblue;
+  margin: 5px 0px !important;
+  -webkit-box-shadow: 18px 18px 20px black;
+          box-shadow: 18px 18px 20px black;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=product.css.map */
